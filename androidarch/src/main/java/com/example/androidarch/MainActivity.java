@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < persons.size(); i++) {
             Log.d("zhiheng", "name: " + persons.get(i).name);
         }
+
+        //notify nothing
     }
 
     public void swap(List<Person> items, int s, int t) {
